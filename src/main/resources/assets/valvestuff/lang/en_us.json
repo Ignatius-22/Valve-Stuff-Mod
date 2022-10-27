@@ -1,4 +1,8 @@
 {
-  "item.valvestuff.australium_ingot": "Australium Ingot"
+  "item.valvestuff.australium_ingot": "Australium Ingot",
+
+  "block.valvestuff.australium_block":"Block of Australium",
+  "block.valvestuff.australium_ore":"Australium Ore",
+  "block.valvestuff.deepslate_australium_ore":"Deepslate Australium Ore"
 
 }
