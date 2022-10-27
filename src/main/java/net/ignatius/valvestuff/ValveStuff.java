@@ -1,6 +1,7 @@
 package net.ignatius.valvestuff;
 
 import com.mojang.logging.LogUtils;
+import net.ignatius.valvestuff.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,6 +26,7 @@ public class ValveStuff
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
