@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "australium_ingot",
+  "ingredients": [
+    {
+      "item": "valvestuff:australium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "valvestuff:australium_ingot"
+  }
+}

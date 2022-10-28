@@ -15,6 +15,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> AUSTRALIUM_INGOT = ITEMS.register("australium_ingot",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+
+    public static final RegistryObject<Item> RAW_AUSTRALIUM = ITEMS.register("raw_australium",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
